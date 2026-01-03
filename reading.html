@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Reading</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-card">
+  <h2>Add Reading</h2>
+
+  <input type="date" id="date">
+<input type="text" id="name" placeholder="Your Name">
+<input type="number" id="family" placeholder="Number of Family Members">
+
+<select id="region">
+  <option value="">Select Region</option>
+  <option value="Urban">Urban</option>
+  <option value="Rural">Rural</option>
+</select>
+
+  <input type="number" id="water" placeholder="Water Usage (litres)">
+  <input type="number" id="electricity" placeholder="Electricity Usage (kWh)">
+
+  <button onclick="submitReading()">Submit Reading</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
